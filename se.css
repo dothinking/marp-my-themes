@@ -89,4 +89,11 @@ section.cover footer {
   color: white;
 }
 
+/* list */
+div#p>svg>foreignObject>section ol,
+div#p>svg>foreignObject>section ul {
+ margin: 0px 10px;
+ text-align: left;
+}
+
   
