@@ -58,24 +58,24 @@ section:not(.cover) h2 {
   text-align:left;
 }
 
-/* sub-title of normal page */
-h3 {
-  color: black;
-  font-size: 24px;
+h3, h4 {
   text-align: left;
   margin-top: 5px;
   margin-bottom: 5px;
   font-weight: bold;
+  letter-spacing: 0;
+}
+
+/* sub-title of normal page */
+h3 {
+  color: black;
+  font-size: 24px;
 }
 
 /* sub-sub-title of normal page */
 h4 {
   color: rgb(0, 153, 153);
   font-size: 18px;
-  text-align: left;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-weight: bold;
 }
 
 
@@ -90,8 +90,7 @@ section.cover footer {
 }
 
 /* list */
-div#p>svg>foreignObject>section ol,
-div#p>svg>foreignObject>section ul {
+section ol, section ul {
  margin: 0px 10px;
  text-align: left;
 }
